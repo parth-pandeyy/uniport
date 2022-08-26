@@ -1,0 +1,52 @@
+{
+  "name": "@uniport/backend",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon dist/index.js",
+    "watch": "tsc -w",
+    "build": "tsc -b",
+    "codegen": "graphql-codegen --config codegen.yml"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@uniport/common": "1.0.0",
+    "apollo-server-core": "^3.3.0",
+    "apollo-server-express": "^3.3.0",
+    "bcrypt": "^5.0.1",
+    "cassandra-driver": "^4.6.3",
+    "cassandra-store": "^5.0.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-openid-connect": "^2.5.0",
+    "express-session": "^1.17.2",
+    "graphql": "^15.5.1",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.3",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "2.1.1",
+    "@graphql-codegen/introspection": "2.1.0",
+    "@graphql-codegen/typescript": "2.1.2",
+    "@graphql-codegen/typescript-operations": "2.1.2",
+    "@graphql-codegen/typescript-react-apollo": "3.1.2",
+    "@graphql-codegen/typescript-resolvers": "^2.1.2",
+    "@types/bcrypt": "^5.0.0",
+    "@types/cassandra-store": "^5.0.2",
+    "@types/cookie-parser": "^1.4.2",
+    "@types/express-session": "^1.17.4",
+    "@types/multer": "^1.4.7",
+    "@types/passport": "^1.0.7",
+    "@types/passport-local": "^1.0.34",
+    "nodemon": "^2.0.12",
+    "typescript": "^4.3.5"
+  }
+}

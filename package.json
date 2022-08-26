@@ -1,0 +1,12 @@
+{
+    "name": "uniport",
+    "private": true,
+    "workspaces": {
+        "packages": [
+            "packages/*"
+        ],
+        "nohoist": [
+            "**"
+        ]
+    }
+}

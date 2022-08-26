@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.btn {
+	@apply rounded-full py-2 px-3 uppercase text-xs font-bold tracking-wider cursor-pointer;
+}
+
+body {
+	/* Give it at right places only */
+	overflow-y: hidden;
+	background: #fffbf5;
+}
+
+.main-container {
+	/* keep it with sync with navbarHeight.ts */
+	max-height: calc(100vh - theme("height.10"));
+	height: calc(100vh - theme("height.10"));
+	overflow-y: scroll;
+}
+
+.ui-landing {
+	background-image: url(../assets/images/landing_curve.svg);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	background-size: cover;
+	position: relative;
+}
+
+*::-webkit-scrollbar-track {
+	border-radius: 0px;
+}
+
+*::-webkit-scrollbar {
+	width: 7px;
+	/* background: red; DEBUG */
+}
+
+*::-webkit-scrollbar-thumb {
+	@apply bg-custom-scroll-color;
+	border-radius: 4px;
+}
+
+/* .uniport-main-content::-webkit-scrollbar-track {
+  border-radius: 0px;
+}
+
+.uniport-main-content::-webkit-scrollbar {
+  width: 3px;
+  background-color: #3f495a;
+}
+
+.uniport-main-content::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+} */
+
+.tag-style {
+	@apply text-xss font-medium  px-1 rounded align-middle;
+}

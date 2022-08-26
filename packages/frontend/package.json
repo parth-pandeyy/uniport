@@ -1,0 +1,32 @@
+{
+  "name": "@uniport/frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.4.10",
+    "@headlessui/react": "^1.4.0",
+    "@types/react-select": "^4.0.17",
+    "@uniport/common": "1.0.0",
+    "dayjs": "^1.10.6",
+    "formik": "^2.2.9",
+    "graphql": "^15.5.2",
+    "next": "latest",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-select": "^4.3.1",
+    "yup": "^0.32.9",
+    "zustand": "^3.5.10"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.19",
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4",
+    "typescript": "^4.4.2"
+  }
+}

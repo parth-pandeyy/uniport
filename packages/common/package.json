@@ -1,0 +1,13 @@
+{
+  "name": "@uniport/common",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "watch": "tsc -w",
+    "build": "tsc -b"
+  },
+  "dependencies": {
+    "yup": "^0.32.9"
+  }
+}

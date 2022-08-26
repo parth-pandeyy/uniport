@@ -1,0 +1,15 @@
+node_modules
+# Keep environment variables out of version control
+.env
+*.zip
+dist/
+__pycache__/
+
+
+package-lock.json
+yarn.lock
+
+
+yarn-error.log
+
+data/
